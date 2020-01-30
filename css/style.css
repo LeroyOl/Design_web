@@ -1,0 +1,349 @@
+.nav-item{
+	margin-right: 34px;
+}
+.gradient {
+	position: relative;
+	width: 100%;
+	height: 91.7vh;
+	top: 0%;
+	background: linear-gradient(60deg, rgba(0,211,254,0) 51%, rgba(27,133,126,0.28139) 51%, rgba(0,210,253,0) 73%, rgba(0,210,253,0) 100%);
+}
+.gradientnav {
+	width: 71.5%;   
+	top: 0%;
+	background: linear-gradient(60deg, rgba(0,211,254,0) 51%, rgba(27,133,126,0.28139) 51%, rgba(0,210,253,0) 73%, rgba(0,210,253,0) 100%);
+}
+.display-none{
+	display: none !important;
+}
+.display-block{
+	display: block !important;
+}
+body{
+	background-color: black;
+}
+.navbar-brand img {
+	max-height: 40px;
+}
+.navbar-nav{
+	justify-content: space-around;
+	padding-top: 1vmax;
+	margin-right: -400px;
+	font-size:1.3em;
+	
+}
+.navbar-nav a{
+	color:white !important;
+
+}
+.navbar-nav a:hover{
+	color:grey !important;
+
+}
+.accueil{
+	background-image:url("../img/main-background.png");
+	background-size: contain: 
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+	/*background-color: #169a93;*/
+	/*clip-path: polygon(48% 0, 100% 0, 100% 100%, 64% 100%);*/
+}
+.titreaccueil{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	color: white;
+	text-align: center;
+	flex-direction: column;
+	background-image: url("../img/main-logo.png");
+	background-size: 32vw ,contain ;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.titreaccueil h1{
+	font-size: 4rem;
+	font-family: 'Cinzel', serif;
+
+}
+.titreaccueil p{
+	font-size:1.7vw;
+	font-family: 'Gelasio', serif;
+}
+#a_propos{
+	height: 101vh;
+	background-color:black;
+	background-position: center;
+	color: white;
+}
+#a_propos img{
+	width: 100%;
+	height:100%;
+}
+.h50{
+	height: 50vh;
+}  
+.precol{
+	background-color: rgba(84, 84, 84, 0.32);
+	display:flex;
+	flex-direction: column;
+	justify-content:  center;
+	padding: 50px;
+}
+.deuxiemcol{
+	background-image: url("../img/glass-img.png");
+	background-size: cover;
+	background-position: center;
+	display:flex;
+	flex-direction: column;
+	justify-content:  center;
+	padding: 100px;
+}
+.deuxiemcol p{
+	font-family: 'Cinzel', serif;
+	font-size: 1.7rem;
+	text-align: center;
+}
+.troixiemecol{
+	background-image: url("../img/road-img.png");
+	background-size: cover;
+	background-position: center; 
+	display:flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	padding: 50px;
+	text-align: center;
+	font-size:2em;
+}
+.quatrecol{
+	background-color: rgba(84, 84, 84, 0.32);
+	display:flex;
+	flex-direction: column;
+	justify-content:  center;
+	padding: 50px;
+}
+.btnplus{
+	color:#17a2b8;
+	border-color:#17a2b8;
+	font-size:1em;
+	transition: 0.3s;
+	text-align: center;
+}
+.btnplus:hover {
+	color:white;
+}
+.info{
+	align-content: center;
+	justify-content: center;
+	display:flex;
+	border: 1px solid;
+	height: 100%;
+	padding:0px;
+}
+#services{
+	height: 100vh;
+	background-image:url("../img/desk-bg.png");
+	background-size: cover;
+	background-position: center;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#contact{
+	height: 40vh;
+	background-color: black;
+	color: white;
+
+}
+.cardvide{
+	width: 253px;
+	margin: 6px;
+}
+.servicetitle{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: justify;
+	padding-left: 116px;
+}
+.servicetitle h1{
+	font-family: 'Cinzel', serif;
+	font-size: 3.5vw;
+	padding-bottom: 100px;
+}
+.setitle2{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: justify;
+	padding: 100px;
+}
+.servicemaniette {
+	
+	background-color: rgba(255,255,255,.2);
+	margin: 6px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 20px;
+}
+.r2{
+	padding: 150px;
+}
+.r1{
+	display: flex;
+	flex-direction: row;
+}
+.servicemanietteshow {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	animation: grow 0.5s;
+}
+.servicemaniettehide{
+	display:none!important;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	animation: grow 0.5s;
+}
+.menufooter a{
+	color:white;
+	font-size: 1.5em;
+}
+.adress {
+	color:white;
+	font-size: 1.2em;
+}
+#a_propos h1{
+	font-family: 'Gelasio', serif;
+}
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+	.servicetitle{
+		padding-left: 0px;
+		text-align: center;
+		padding-bottom: 100px;
+	}
+	.servicetitle h1{
+
+	padding-bottom: 100px;
+}
+	.gradientnav {
+		width: 100%;
+		top: 0%;
+		background: linear-gradient(73deg, rgba(0,211,254,0) 0, rgba(27,133,126,0.28139) 100%, rgba(0,210,253,0) 95%, rgba(0,210,253,0) 100%);
+	}
+	.gradient {
+		position: relative;
+		width: 100%;
+		height: 91.7vh;
+		background: linear-gradient(73deg, rgba(0,211,254,0) 54%, rgba(27,133,126,0.28139) 67%, rgba(0,210,253,0) 118%, rgba(0,211,254,0) 100%);
+	}
+	.nav-toggler{
+		margin-right: -160px;
+	}
+
+	.servicemanietteshow {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		animation: grow 0.5s;}
+		.r2{
+			padding: 20px;
+		}
+		.r1{
+			display: flex;
+			flex-direction: column;
+		}
+		.titreaccueil{
+			background-size: 80vw;
+		}
+		.titreaccueil p{
+			font-size: 1.2em; 
+		}
+		.titreaccueil h1{
+			font-size: 2em;
+
+		}
+		.servicemaniette {
+			font-size: 1em;
+			flex-direction: row;
+			align-items: center;
+			justify-content: flex-start;
+
+		}
+		.menufooter{
+			padding: 20px;
+		}
+
+		.adress{
+			text-align: center;
+		}
+		.servicemaniette img{
+			height:60px ;
+			width:60px;
+			margin-right: 10px;
+			margin-left: -10px;
+		}
+
+		.thide p {
+			display:none;
+
+		}
+		.servicemanietteshow h2{
+
+			font-size: 1.6em
+		}
+		.servicemaniettehide h2{
+			font-size: 1.6em
+		}
+		.servicetitle h1 {
+			font-size: 3.5rem;
+			padding-left: 0px;
+			padding-bottom:30px;
+		}
+
+		#contact{
+			height:max-content; ;}
+
+			#services{
+				height:max-content; ;}
+
+
+				.accueil{
+					height:max-content; ;}
+
+					.h50{
+						height:max-content; ; }
+
+						#a_propos{
+							àwidth: 90%;
+							height:max-content; ; }
+
+							.setitle2{
+								display:none;}	
+							}
+							.grow{
+								animation: grow 0.5s;
+							}
+
+							/* Small Devices, Tablets */
+							@media only screen and (min-width : 768px) {}
+
+							/* Medium Devices, Desktops */
+
+							/* Large Devices, Wide Screens */
+							@media only screen and (min-width : 1200px) {
+
+							}
+							@keyframes grow{
+								0% {transform: scaleX(0); opacity:0.5;}
+								100% {transform: scaleX(1);opacity:1;}	
+							}
+							@keyframes start{
+								0% {transform: translateX(-100vw) ;}
+								100%{transform: translateX(0vw) ;}
+							}
